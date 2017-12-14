@@ -87,7 +87,7 @@ header .social li {
    padding: 0;
 }
 header .social li a { color: #fff; }
-header .social li a:hover { color: #11ABB0; }
+header .social li a:hover { color: #FF0077; }
 
 /* scrolldown link */
 header .scrolldown a {
@@ -109,7 +109,7 @@ header .scrolldown a {
    -o-transition: all .3s ease-in-out;
    transition: all .3s ease-in-out;
 }
-header .scrolldown a:hover { color: #11ABB0; }
+header .scrolldown a:hover { color: #FF0077; }
 
 /* primary navigation
 --------------------------------------------------------------------- */
@@ -199,8 +199,8 @@ ul#nav li.current a { color: #FF0077; }
 }
 #about .profile-pic {
    position: relative;
-   width: 120px;
-   height: 120px;
+   width: 150px;
+   height: 150px;
    border-radius: 100%;
 }
 #about .contact-details { width: 41.66667%; }
@@ -408,19 +408,27 @@ ul#nav li.current a { color: #FF0077; }
    margin-right: 8px;
 }
 .popup-modal .link-box {
-   padding: 18px 36px;
+   padding: 18px 36px 39px;
    background: #111;
    text-align: left;
 }
 .popup-modal .link-box a {
    color: #fff;
-	font: 11px/21px 'opensans-bold', sans-serif;
-	text-transform: uppercase;
+	 font: 11px/21px 'opensans-bold', sans-serif;
+	 text-transform: uppercase;
    letter-spacing: 3px;
    cursor: pointer;
+	 display: block;
+	 text-align: center;
+	 float: left;
+	 width: calc(100%/3);
+	 -moz-transition: all 0.3s ease-in-out;
+	 -o-transition: all 0.3s ease-in-out;
+	 -webkit-transition: all 0.3s ease-in-out;
+	 -ms-transition: all 0.3s ease-in-out;
+	 transition: all 0.3s ease-in-out;
 }
-.popup-modal a:hover {	color: #00CCCC; }
-.popup-modal a.popup-modal-dismiss { margin-left: 24px; }
+.popup-modal a:hover {	color: #FF0077;}
 
 
 /* fadein/fadeout effect for modal popup
