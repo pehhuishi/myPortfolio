@@ -515,6 +515,11 @@ footer .social-links li {
 
 footer .social-links li:first-child { margin-left: 0; }
 
+.footerWords{
+  margin-top: 10px;
+  color: #FF0077;
+}
+
 /* Go To Top Button */
 #go-top {
 	position: absolute;

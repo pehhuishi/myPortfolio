@@ -1,11 +1,3 @@
-/* ==================================================================
-
-*   Ceevee Media Queries
-*   url: styleshout.com
-*   03-18-2014
-
-/* ================================================================== */
-
 
 /* screenwidth less than 1024px
 --------------------------------------------------------------------- */
@@ -256,10 +248,8 @@
 
    /* Portfolio Section
    /* ----------------------------------------------------------------- */
-   #portfolio-wrapper .columns { margin-bottom: 40px; }
-   .popup-modal {	max-width: 85%; }
-
-
+   #portfolio-wrapper .columns { margin-bottom: 40px; text-align: center; }
+   .popup-modal {	max-width: 100%; }
 
 
    /* footer
